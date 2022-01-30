@@ -17,10 +17,10 @@ class Circle:
         return 2.0 * math.pi * self.radius
 
     def __str__(self):
-        return f"A Circle with radius {self.radius}"
+        return f"A circle with radius {self.radius}"
         
 class Square:
-    """A square with side s."""
+    """A square with sides s"""
 
     def __init__(self, side):
         self.side = side
@@ -29,9 +29,9 @@ class Square:
         """Calculate the area of the square"""
         return side ** 2
 
-    def circumference(self):
+    def perimeter(self):
         """Calculate the perimeter of the square"""
         return side * 4
 
     def __str__(self):
-        return f"A Circle with sides {self.radius}"
+        return f"A square with sides {self.radius}"
